@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Italianno&display=swap');
+
+:root {
+    --header-footer-background: #3C2F41;
+    --text-color: #F8FFB3;
+    --menu-background: #F7E7CE;
+}
+
+.reserve a {
+    color: #000000;
+}
+
+.reserve p {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.reserve a {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.reserve {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+
+    padding: 25px;
+
+}
+
+.reserve>* {
+    margin: 40px;
+}
+
+.yslygi {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.yslygi>* {
+    margin: 30px 10px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.opisanie {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.opisanie>* {
+    margin: 30px 10px;
+
+}
+
+.opisanie>* {
+    margin: 40px;
+}
+.yslygi {
+    display: flex;
+    flex-wrap: wrap;
+}
+.yslygi img:nth-child(odd) {
+    order: 1;
+    margin-right: 40px;
+
+}
+.yslygi img:nth-child(even) {
+    order: 2;
+    margin-left: 40px;
+}
+.yslygi img {
+    margin: 10px;
+    width: 500px;
+}
+
+.opisanie {
+    display: flex;
+    flex-direction: column;
+}
+
+.opisanie img {
+    margin: 10px;
+    width: 500px;
+}

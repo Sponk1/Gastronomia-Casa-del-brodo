@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa del Brodo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer>
+        </script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>Casa del Brodo</h1>
+            <nav>
+                <a href="index.html">Ресторан</a>    <!-- class="active" -->
+                <a href="menu.html">Меню</a>
+                <a href="location.html">На карте</a>
+                <a href="services.html">Услуги</a>
+                <a href="feedback.html">Обратная связь</a>
+            </nav>
+        </div>
+        <div class="menu">
+            <div class="personal">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#orderModal">
+                    <img src="./images/order.svg" alt="order">
+                </a>
+                <a href="#">
+                    <img src="./images/profile.svg" alt="profile">
+                </a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                <span>
+                    ©Casa del Brodo,
+                </span>
+                2024
+            </p>
+            <div class="links">
+                <a href="#">
+                    <img src="./images/vk.png" alt="vk">
+                </a>
+                <a href="#">
+                    <img src="./images/telegram.png" alt="telegram">
+                </a>
+                <a href="#">
+                    <img src="./images/whatsapp.png" alt="whatsapp">
+                </a>
+                <a class="faq" href="#">
+                    FAQ
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade modal-right" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+        <div class="modal-dialog order-dialog">
+            <div class="modal-content">
+                <div class="modal-header order-text">
+                    <h1 class="modal-title fs-5" id="orderModalLabel">Ваш заказ</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="order-row order-text"></div>
+                    <div class="order-row order-text"></div>
+                    <div class="order-row order-text"></div>
+                    <div class="order-row order-text"></div>
+                    <div class="order-row order-text"></div>
+                    <div class="order-row order-text"></div>
+                    <div class="order-last-row">
+                        <p>Итого:</p>
+                        <div class="order-row order-text"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="make-order" class="make-order">Оформить заказ</button>
+                    <p>Минимальная сумма заказа 800 р</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
