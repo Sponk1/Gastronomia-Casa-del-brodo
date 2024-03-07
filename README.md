@@ -7,7 +7,7 @@ user_data
 menu
 ![image](https://github.com/Sponk1/Gastronomia-Casa-del-brodo/assets/136521792/74a7fbb3-abdf-45c3-8008-a46786187059)
 
-orders
+order
 ![image](https://github.com/Sponk1/Gastronomia-Casa-del-brodo/assets/136521792/33f5f570-ac59-425c-b13b-a9916e2c300c)
 
 payment
