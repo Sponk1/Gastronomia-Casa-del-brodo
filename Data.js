@@ -1,4 +1,4 @@
-var Places = [
+var places = [
   { name: "", coordinates: [55.68170044132334, 37.764545623662] },
   { name: "", coordinates: [55.654136813331206, 37.76603869460469] },
   { name: "", coordinates: [55.74533517415198, 37.63560502277286] },
@@ -12,5 +12,5 @@ var Places = [
 ];
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = Places;
+  module.exports = places;
 }

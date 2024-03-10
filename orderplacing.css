@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Italianno&display=swap');
+
+/* .orderplacing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1303px;
+    height: 1300px;
+    left: 70px;
+    top: 230px; */
+
+
+
+/* .row {
+    padding-left: 100px;
+} */
+
+.orderplacing {
+    background: #EBDCC5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+
+
+    width: 1500px;
+    height: 1200px;
+
+    margin: 0 200px 50px 200px;
+    padding: 50px;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #000000;
+
+
+    margin-bottom: 150px;
+
+    width: 331px;
+    height: 36px;
+}
+
+.personalinf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.delivery p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+
+    margin-bottom: 25px;
+}
+
+.delivery .input-container {
+    margin-bottom: 100px;
+}
+
+.adress {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.input-line {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-line {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #000000;
+}
+
+.comment {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #000000;
+}
+
+.forcomment {
+    width: 331px;
+    height: 179px;
+}
+
+.total p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #000000;
+}
+
+.total-row {
+    width: 200px;
+    height: 5px;
+    border-bottom: solid #000000 1px;
+}
+
+.total {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.checkout {
+    width: 301px;
+    height: 57px;
+
+    background: #F7E7CE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #000000;
+}
