@@ -21,4 +21,5 @@ dish_recipe
 
 
 Database description img.
-![image](https://github.com/Sponk1/Gastronomia-Casa-del-brodo/assets/136521792/0515743b-bceb-4975-b6de-2132f1fd5eae)
+![image](https://github.com/Sponk1/Gastronomia-Casa-del-brodo/assets/99675158/58bd3d56-39b3-4f3e-8921-329babf2f44f)
+
