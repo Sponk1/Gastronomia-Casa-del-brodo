@@ -16,6 +16,8 @@ payment
 review
 ![image](https://github.com/Sponk1/Gastronomia-Casa-del-brodo/assets/136521792/c49d92e9-bb5f-4a7a-b8d7-006ea3071371)
 
+dish_recipe
+![image](https://github.com/Sponk1/Gastronomia-Casa-del-brodo/assets/136521792/f63dd552-9e63-448c-9b9b-5c85cad81bc1)
 
 Database description img.
 ![image](https://github.com/Sponk1/Gastronomia-Casa-del-brodo/assets/136521792/0515743b-bceb-4975-b6de-2132f1fd5eae)
