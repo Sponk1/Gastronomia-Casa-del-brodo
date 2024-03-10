@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "API for database",
+  "main": "app",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"\""
+  },
+  "keywords": [
+    "\"\""
+  ],
+  "author": "Sponk STEPiK",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "pg": "^8.11.3",
+    "supabase": "^1.148.6",
+    "yarn": "^1.22.22"
+  }
+}
