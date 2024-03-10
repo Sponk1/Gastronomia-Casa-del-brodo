@@ -10,4 +10,4 @@ Database diogram:
 Project design: 
 https://www.figma.com/file/ScxO3fTAyERgE4oZukn4x5/site?type=design&node-id=0%3A1&mode=design&t=QW041SnOe0eNcLTC-1
 
-Stack of technologies: JavaScript, CSS, HTML, PostgreSQL, Visual Studio Code, PgAdmin (In development, it will be later)
+Stack of technologies: JavaScript, CSS, HTML, PostgreSQL, Visual Studio Code, PgAdmin, node.js, express, npm.
