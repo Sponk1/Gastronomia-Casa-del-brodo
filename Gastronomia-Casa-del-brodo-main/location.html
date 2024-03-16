@@ -111,13 +111,28 @@
         markers.addLayer(marker);
     });
 
-    var moscowMarker = L.marker([55.7558, 37.6173], { icon: customIcon }).bindPopup("Москва");
-    var petersburgMarker = L.marker([59.9343, 30.3351], { icon: customIcon }).bindPopup("Санкт-Петербург");
 
-    markers.addLayer(moscowMarker);
-    markers.addLayer(petersburgMarker);
+
+    var moscowCircle = L.circleMarker([55.7558, 37.6173], {
+        radius: 8,
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5
+    }).bindPopup("Москва");
+    var petersburgCircle = L.circleMarker([59.9343, 30.3351], {
+        radius: 8,
+        color: 'blue',
+        fillColor: '#3388ff',
+        fillOpacity: 0.5
+    }).bindPopup("Санкт-Петербург");
+
+
+    map.addLayer(moscowCircle);
+    map.addLayer(petersburgCircle);
+
 
     map.addLayer(markers);
+
 
     function centerMap() {
         map.invalidateSize();
@@ -126,6 +141,31 @@
 
     window.addEventListener('load', centerMap);
     window.addEventListener('resize', centerMap);
+
+    moscowCircle.on('click', function (e) {
+        map.setView(e.latlng, 10);
+        alert("Координаты Москвы: " + e.latlng);
+    });
+    petersburgCircle.on('click', function (e) {
+        map.setView(e.latlng, 10);
+        alert("Координаты Санкт-Петербурга: " + e.latlng);
+    });
+    map.on('zoomend', function() {
+        var currentZoom = map.getZoom();
+        if (currentZoom > 11) {
+            moscowCircle.setStyle({ opacity: 0, fillOpacity: 0 });
+        } else {
+            moscowCircle.setStyle({ opacity: 1, fillOpacity: 0.5 });
+        }
+    });
+    map.on('zoomend', function() {
+        var currentZoom = map.getZoom();
+        if (currentZoom > 10) {
+            petersburgCircle.setStyle({ opacity: 0, fillOpacity: 0 });
+        } else {
+            petersburgCircle.setStyle({ opacity: 1, fillOpacity: 0.5 });
+        }
+    });
 
 </script>
 </body>

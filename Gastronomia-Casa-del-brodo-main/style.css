@@ -15,11 +15,11 @@
 .header {
     background-color: var(--header-footer-background);
     color: var(--text-color);
-
 }
 
 .header h1 {
-
+    margin: 0;
+    padding: 43px 0 0 0;
     height: 143px;
     text-align: center;
 
@@ -28,10 +28,6 @@
     font-weight: 400;
     font-size: 96px;
     line-height: 120px;
-    padding: 0 120px;
-    max-width: 1720px;
-    margin: 0 auto;
-    margin-top: 40px;
 }
 
 .header nav {
@@ -41,9 +37,6 @@
     justify-content: space-around;
     align-items: center;
     border-top: solid 1px var(--text-color);
-    padding: 0 120px;
-    max-width: 1720px;
-    margin: 0 auto;
 }
 
 .header nav a {
@@ -61,18 +54,25 @@
 
 .header nav a.active {
     border-bottom: solid 2px var(--text-color);
-}.about {
-     background: url(images/about-background.png);
-     background-position: center;
-     background-size: calc(100% - 80px);
-     display: flex;
-     flex-flow: column nowrap;
-     justify-content: start;
-     align-items: center;
+}
 
-     padding: 89px 131px;
- }
+.about {
+    /* min-height: 654px; */
+    /* background: var(--text-color); */
 
+    background: url(images/about-background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* mix-blend-mode: luminosity;
+    opacity: 0.45; */
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+
+    padding: 89px 131px;
+}
 
 .about h2 {
     font-family: 'Inter';
@@ -121,7 +121,6 @@
     margin-bottom: 100px;
 }
 
-
 .menu-item {
     width: 262px;
     min-height: 400px;
@@ -148,21 +147,20 @@
     max-width: 262px;
 }
 
-.personal {
+.presonal {
     display: flex;
     flex-flow: row nowrap;
     justify-content: end;
     align-items: center;
 }
 
-.personal a {
+.presonal a {
     text-decoration: none;
 }
 
-.personal a:not(:first-child) {
+.presonal a:not(:first-child) {
     margin-left: 23px;
 }
-
 
 .footer {
     background-color: var(--header-footer-background);

@@ -76,30 +76,3 @@
 .opisanie>* {
     margin: 40px;
 }
-.yslygi {
-    display: flex;
-    flex-wrap: wrap;
-}
-.yslygi img:nth-child(odd) {
-    order: 1;
-    margin-right: 40px;
-
-}
-.yslygi img:nth-child(even) {
-    order: 2;
-    margin-left: 40px;
-}
-.yslygi img {
-    margin: 10px;
-    width: 500px;
-}
-
-.opisanie {
-    display: flex;
-    flex-direction: column;
-}
-
-.opisanie img {
-    margin: 10px;
-    width: 500px;
-}
